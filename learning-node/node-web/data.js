@@ -2,9 +2,8 @@ const http = require("http");
 const server = http.createServer();
 
 server.on("request", (req, res) => {
-  if (req.method === 'POST' && req.url == "/echo") {
+  if (req.method === "POST" && req.url == "/echo") {
     let body = [];
-
     req.on('data', chunk => {
       body.push(chunk);
     })
