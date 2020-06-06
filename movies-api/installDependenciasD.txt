@@ -1,0 +1,4 @@
+npm i -D nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier
+
+//formatear codigo su subir a repositorio
+npx mrm lint-staged 
